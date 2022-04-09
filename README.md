@@ -37,20 +37,16 @@ Precisa ter as duas pastas separadas
 
 ## Página Home
 
-<img src="https://raw.githubusercontent.com/LucasGaldinno/crud-produtos/main/Screenshot/index.png">
+<img src="https://raw.githubusercontent.com/LucasGaldinno/crud-produtos/main/PI-%20Screenshots/home.png">
 
-## Página de cadastrar produtos 
+## Página de Cadastrar Produtos 
 
-<img src="https://raw.githubusercontent.com/LucasGaldinno/crud-produtos/main/Screenshot/Cadastro2.png">
+<img src="https://raw.githubusercontent.com/LucasGaldinno/crud-produtos/main/PI-%20Screenshots/Cadastrar-Produto.PNG">
 
-## Página de listar produtos
+## Página de Listar Produtos
 
-<img src="https://raw.githubusercontent.com/LucasGaldinno/crud-produtos/main/Screenshot/Lista-Produto.png">
+<img src="https://raw.githubusercontent.com/LucasGaldinno/crud-produtos/main/PI-%20Screenshots/Listar-Produto.PNG">
 
-## Página de atualizar produto 
+## Página de Atualização de Produto 
 
-<img src="https://raw.githubusercontent.com/LucasGaldinno/crud-produtos/main/Screenshot/Atualiza-produto.png">
-
-## Produto atualizado 
-
-<img src="https://raw.githubusercontent.com/LucasGaldinno/crud-produtos/main/Screenshot/lista-produtoV2.png">
+<img src="https://raw.githubusercontent.com/LucasGaldinno/crud-produtos/main/PI-%20Screenshots/Atualiza-Produto.PNG">
