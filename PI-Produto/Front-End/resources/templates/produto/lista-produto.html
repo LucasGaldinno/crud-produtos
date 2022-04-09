@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang=”pt-br” xmlns:th="http://thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<title>PI Produto</title>
+
+<title>| PI Produto - UC 14 |</title>
+
+</head>
+
+<body>
+
+
+	<header>
+
+	<a class="navbar-brand" href="/">PI Produto</a>
+				<nav>
+					<ul class="navbar-nav">
+						<li ><a aria-current="page" href="/"> Home </a></li>
+						<li><a href="/produtos"> Listar Produtos </a></li>
+						<li><a href="/cadastrarProduto"> Cadastrar Produtos </a></li>
+					</ul>
+				</nav>
+
+	</header>
+
+
+		<h1 id="title">Lista de Produtos</h1>
+
+		<div class="table-main">
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">Nome do produto</th>
+					<th scope="col">Descrição</th>
+					<th scope="col">Quantidade</th>
+					<th scope="col">Valor</th>
+					<th scope="col">Editar</th>
+					<th scope="col">Excluir</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="produto: ${produtos}">
+					<td><a
+						th:href="${(#mvc.url('PC#detalhesProduto').arg(0, produto.codigo)).build()}">
+							<span th:text="${produto.nome}"></span>
+					</a></td>
+					<td><span th:text="${produto.descricao}"></span></td>
+					<td><span th:text="${produto.qtd_produto}"></span></td>
+					<td>R$ <span th:text="${produto.valor}"></span></td>
+					<td><a
+						th:href="${(#mvc.url('PC#deletarProduto').arg(0, produto.codigo)).build()}"><button
+								type="button" class="btn">Excluir</button></a></td>
+					<td><a
+						th:href="${(#mvc.url('PC#editarProduto').arg(0, produto.codigo)).build()}"><button
+								type="button" class="btn">Editar</button></a></td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+
+		<footer><p>PI - Cadastro de Produtos</p></footer>
+</body>
+
+</html>
