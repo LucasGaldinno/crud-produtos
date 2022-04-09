@@ -3,6 +3,8 @@ PI - Online - Entrega Final do Projeto Integrador
 
 Esse projeto tem como objetivo principal cadastrar produtos de informática. Essa aplicação vem sendo desenvolvida desde a UC 10 do curso Tecnico de informática para internet.
 
+# Exigências Da Aplicação, para o critério de avalição.
+
 O Sistema pode ser feito em JSP ou Spring.
 
 O documento em PDF deverá ter as seguintes informações :
