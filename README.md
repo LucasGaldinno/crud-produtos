@@ -1,17 +1,37 @@
 # Crud de Produtos
-PI - online - Desenvolvendo Back-End
+PI - Online - Entrega Final do Projeto Integrador
 
-Desenvolva uma parte do Projeto Integrador, que faça a conexão com o Banco de Dados, pelo menos faça a utilização de uma entidade, utilizando os conceitos de MVC com Spring Boot e banco de dados Mysql.
+Esse projeto tem como objetivo principal cadastrar produtos de informática. Essa aplicação vem sendo desenvolvida desde a UC 10 do curso Tecnico dde informática para internet.
 
-Funcionalidades.
+O Sistema pode ser feito em JSP ou Spring.
 
-* Cadastrar os dados para a entidade escolhida ao menos uma.
+O documento em PDF deverá ter as seguintes informações :
 
-* Listar todos os valores da entidade cadastrada do banco de dados, o banco de dados deverá ter o nome de "databasepi".
+1.  Logo.
 
-* Ter funcionalidade de atualização e exclusão dos valores das entidades cadastrada.
+2.  Objetivo do Sistema.
 
-* Faça o upload do seu projeto no GitHub,seguindo os passos abaixo: 
+3.  Nome do banco de dados.
+
+4.  Link do GitHub.
+
+Deve estar no GitHub um dos Projetos abaixo :
+
+Projeto em JSP:
+
+·    Precisa ter todas as pastas e o arquivo SQL do banco de dados.
+
+Projeto em Spring + Thimeleaf.
+
+·    Precisar ter os arquivos da pasta feito em Maven.
+
+Projeto Spring + Angular
+
+Precisa ter as duas pastas separadas
+
+·    Pasta do BackEnd - feito em Spring (Maven).
+
+·    Pasta do FrontEnd - com os arquivos em Angular.
 
 ## Página Home
 
