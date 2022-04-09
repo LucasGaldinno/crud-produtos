@@ -1,7 +1,7 @@
 # Crud de Produtos
 PI - Online - Entrega Final do Projeto Integrador
 
-Esse projeto tem como objetivo principal cadastrar produtos de informática. Essa aplicação vem sendo desenvolvida desde a UC 10 do curso Tecnico dde informática para internet.
+Esse projeto tem como objetivo principal cadastrar produtos de informática. Essa aplicação vem sendo desenvolvida desde a UC 10 do curso Tecnico de informática para internet.
 
 O Sistema pode ser feito em JSP ou Spring.
 
