@@ -19,19 +19,19 @@ Deve estar no GitHub um dos Projetos abaixo :
 
 Projeto em JSP:
 
-·    Precisa ter todas as pastas e o arquivo SQL do banco de dados.
+- Precisa ter todas as pastas e o arquivo SQL do banco de dados.
 
 Projeto em Spring + Thimeleaf.
 
-·    Precisar ter os arquivos da pasta feito em Maven.
+- Precisar ter os arquivos da pasta feito em Maven.
 
 Projeto Spring + Angular
 
 Precisa ter as duas pastas separadas
 
-·    Pasta do BackEnd - feito em Spring (Maven).
+-  Pasta do BackEnd - feito em Spring (Maven).
 
-·    Pasta do FrontEnd - com os arquivos em Angular.
+- Pasta do FrontEnd - com os arquivos em Angular.
 
 ## Página Home
 
