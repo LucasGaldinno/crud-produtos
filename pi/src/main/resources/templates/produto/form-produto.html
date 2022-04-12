@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang=”pt-br” xmlns:th="http://thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>| PI Produto - UC 14 |</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<header>
+
+	<a class="navbar-brand" href="/">PI Produto</a>
+				<nav>
+					<ul class="navbar-nav">
+						<li ><a aria-current="page" href="/"> Home </a></li>
+						<li><a href="/produtos"> Listar Produtos </a></li>
+						<li><a href="/cadastrarProduto"> Cadastrar Produtos </a></li>
+					</ul>
+				</nav>
+
+	</header>
+
+		<h1 class="titleC">Cadastrar Produto</h1>
+
+
+		<form method="post">
+
+			<div class="form-group">
+				<label for=""><strong>Nome do produto:</strong></label> 
+				<input type="text" class="form-control" placeholder="Insira o nome do produto" name="nome" required>
+			</div>
+
+			<div class="form-group">
+
+				<label for=""><strong>Descrição do produto:</strong></label>
+				<textarea class="form-control" name="descricao" maxlength="254" rows="3" required></textarea>
+				<small class="form-text text-muted"><i>* Breve resumo do produto..</i></small>
+
+			</div>
+					<div class="form-group">
+						<label for=""><b>Quantidade do Produto:</b></label><input
+							type="number" pattern="^\d+(\.|\,)\d{2}$" value=""
+							name="qtd_produto" class="form-control" required /> <small
+							class="form-text text-muted"><i>* Utilize valores
+								considerando vírgula e ponto.</i></small>
+					</div>
+
+					<div class="row">
+						<div class="col">
+							<div class="form-group">
+								<label for=""><b>Valor do Produto:</b></label><input
+									type="number" pattern="^\d+(\.|\,)\d{2}$" value="" name="valor"
+									class="form-control" required /> <small
+									class="form-text text-muted"><i>* Utilize valores
+										considerando vírgula e ponto.</i></small>
+							</div>
+
+						</div>
+					</div>
+
+
+					<div class="btnAD"><button type="submit" class="btn btnA">Adicionar Produto</button></div>
+		</form>
+	
+	<footer><p>PI - Cadastro de Produtos</p></footer>
+
+
+</body>
+
+</html>
